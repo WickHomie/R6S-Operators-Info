@@ -97,13 +97,27 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="operatorsList" id="Um4-jw-3e5">
-                                <rect key="frame" x="0.0" y="44.666666030883789" width="390" height="43.666667938232422"/>
+                                <rect key="frame" x="0.0" y="44.666666030883789" width="390" height="20.666666030883789"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Um4-jw-3e5" id="BoF-kW-Xek">
-                                    <rect key="frame" x="0.0" y="0.0" width="390" height="43.666667938232422"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="390" height="20.666666030883789"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YVC-b4-zyc">
+                                            <rect key="frame" x="348.66666666666669" y="0.0" width="41.333333333333314" height="20.666666666666668"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="YVC-b4-zyc" firstAttribute="top" secondItem="BoF-kW-Xek" secondAttribute="top" id="IoB-Lj-QSf"/>
+                                        <constraint firstItem="YVC-b4-zyc" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="BoF-kW-Xek" secondAttribute="leading" constant="20" symbolic="YES" id="JMg-DX-9cM"/>
+                                        <constraint firstAttribute="trailing" secondItem="YVC-b4-zyc" secondAttribute="trailing" id="MHg-7H-cgY"/>
+                                        <constraint firstAttribute="bottom" secondItem="YVC-b4-zyc" secondAttribute="bottom" id="m1L-i9-uOk"/>
+                                    </constraints>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -115,7 +129,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CRt-98-dQF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1762" y="-248"/>
+            <point key="canvasLocation" x="1761.5384615384614" y="-248.10426540284359"/>
         </scene>
         <!--Defend Vc-->
         <scene sceneID="hJh-3N-cLc">
