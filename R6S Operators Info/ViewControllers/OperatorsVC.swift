@@ -31,7 +31,8 @@ class OperatorsVC: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "operatorsList", for: indexPath)
         var content = cell.defaultContentConfiguration()
         let operatorAttack = attack[indexPath.row]
-        
+       
+        content.textProperties.font = UIFont.systemFont(ofSize: 30)
         content.text = operatorAttack.name
         content.image = UIImage(named: operatorAttack.title)
        

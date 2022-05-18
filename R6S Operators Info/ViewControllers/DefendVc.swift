@@ -13,7 +13,7 @@ class DefendVc: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.rowHeight = 80
+        tableView.rowHeight = 150
         
         let image = UIImage(named: "background5")
         tableView.backgroundView = UIImageView(image: image)
@@ -32,7 +32,7 @@ class DefendVc: UITableViewController {
         var content = cell.defaultContentConfiguration()
         let operatorAttack = defend[indexPath.row]
         
-        
+        content.textProperties.font = UIFont.systemFont(ofSize: 30)
         content.text = operatorAttack.name
         content.image = UIImage(named: operatorAttack.title)
        

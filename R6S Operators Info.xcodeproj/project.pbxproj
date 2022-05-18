@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		312544C22834FAE900BF5C88 /* OperatorInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312544C12834FAE900BF5C88 /* OperatorInfoVC.swift */; };
 		314A8D6A282E55800031AA1D /* Attack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314A8D69282E55800031AA1D /* Attack.swift */; };
 		314A8D6C282E558C0031AA1D /* Defend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314A8D6B282E558C0031AA1D /* Defend.swift */; };
 		317987D1282B9AD60015A719 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317987D0282B9AD60015A719 /* AppDelegate.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		312544C12834FAE900BF5C88 /* OperatorInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OperatorInfoVC.swift; path = "R6S Operators Info/ViewControllers/OperatorInfoVC.swift"; sourceTree = SOURCE_ROOT; };
 		314A8D69282E55800031AA1D /* Attack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attack.swift; sourceTree = "<group>"; };
 		314A8D6B282E558C0031AA1D /* Defend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defend.swift; sourceTree = "<group>"; };
 		317987CD282B9AD60015A719 /* R6S Operators Info.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "R6S Operators Info.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +94,7 @@
 				317987D4282B9AD60015A719 /* ViewController.swift */,
 				317987E4282CF4060015A719 /* OperatorsVC.swift */,
 				31C4189F282E8C74007522BB /* DefendVc.swift */,
+				312544C12834FAE900BF5C88 /* OperatorInfoVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 			files = (
 				317987E5282CF4060015A719 /* OperatorsVC.swift in Sources */,
 				317987D5282B9AD60015A719 /* ViewController.swift in Sources */,
+				312544C22834FAE900BF5C88 /* OperatorInfoVC.swift in Sources */,
 				317987D1282B9AD60015A719 /* AppDelegate.swift in Sources */,
 				31C418A0282E8C74007522BB /* DefendVc.swift in Sources */,
 				317987D3282B9AD60015A719 /* SceneDelegate.swift in Sources */,
