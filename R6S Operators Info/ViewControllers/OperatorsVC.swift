@@ -13,9 +13,12 @@ class OperatorsVC: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.rowHeight = 80
-
-
+        
+        tableView.rowHeight = 150
+        
+        let image = UIImage(named: "background5")
+        tableView.backgroundView = UIImageView(image: image)
+        
     }
 
     // MARK: - Table view data source
@@ -29,11 +32,12 @@ class OperatorsVC: UITableViewController {
         var content = cell.defaultContentConfiguration()
         let operatorAttack = attack[indexPath.row]
         
-        
         content.text = operatorAttack.name
         content.image = UIImage(named: operatorAttack.title)
        
         cell.contentConfiguration = content
+        
+        
 
         return cell
     }

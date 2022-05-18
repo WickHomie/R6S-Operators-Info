@@ -14,6 +14,10 @@ class DefendVc: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.rowHeight = 80
+        
+        let image = UIImage(named: "background5")
+        tableView.backgroundView = UIImageView(image: image)
+
 
     }
 
