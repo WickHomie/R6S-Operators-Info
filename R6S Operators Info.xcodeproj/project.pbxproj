@@ -19,6 +19,7 @@
 		317987E5282CF4060015A719 /* OperatorsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317987E4282CF4060015A719 /* OperatorsVC.swift */; };
 		31C418A0282E8C74007522BB /* DefendVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C4189F282E8C74007522BB /* DefendVc.swift */; };
 		31D6D0B028322BA9008E951E /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D6D0AF28322BA9008E951E /* Gradient.swift */; };
+		31DC65F7283FBBC200F4907D /* DefendInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DC65F6283FBBC200F4907D /* DefendInfoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		317987E4282CF4060015A719 /* OperatorsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorsVC.swift; sourceTree = "<group>"; };
 		31C4189F282E8C74007522BB /* DefendVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefendVc.swift; sourceTree = "<group>"; };
 		31D6D0AF28322BA9008E951E /* Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
+		31DC65F6283FBBC200F4907D /* DefendInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefendInfoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				317987E4282CF4060015A719 /* OperatorsVC.swift */,
 				31C4189F282E8C74007522BB /* DefendVc.swift */,
 				312544C12834FAE900BF5C88 /* OperatorInfoVC.swift */,
+				31DC65F6283FBBC200F4907D /* DefendInfoVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				317987D3282B9AD60015A719 /* SceneDelegate.swift in Sources */,
 				314A8D6C282E558C0031AA1D /* Defend.swift in Sources */,
 				314A8D6A282E55800031AA1D /* Attack.swift in Sources */,
+				31DC65F7283FBBC200F4907D /* DefendInfoVC.swift in Sources */,
 				31D6D0B028322BA9008E951E /* Gradient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
